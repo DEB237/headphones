@@ -1,0 +1,105 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 480px){
+  body{
+  display: flex;
+  flex-wrap: wrap;
+}
+}
+
+body{
+
+  overflow-y: scroll;
+}
+header.header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(headphones_hero_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 161px;
+  height: 32px;
+  margin-left: 110px;
+}
+.navbar-menu ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+a.nav-link{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  word-wrap: break-word
+}
+section.section-hero{
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  color: white;
+}
+
+section.section-hero div.container h2{
+  font-size: 32px;
+  font-weight: 700;
+  word-wrap: break-word
+}
+
+section.section-hero div.container p{
+  font-size: 16px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+section.section-hero div.container button{
+  background-color: #ff6565;
+  border: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 21px;
+  margin-top: 50px;
+}
+
+a.button{
+  font-size: 14px;
+  font-weight: 700;
+  word-wrap: break-word;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.nav-link:hover, .nav-link:active{
+  color: #ff6565;
+  }
+  
+  button:hover, button:active{
+    opacity: 0.9;
+  }
+
+  section.section-hero div.box {
+  margin-top: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word
+}
